@@ -6,7 +6,9 @@ function Dashboardlayout({children}) {
   return (
     <div>
      <Header />
-     {children}
+    <div>
+    {children}
+    </div>
     </div>
   )
 }
